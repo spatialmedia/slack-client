@@ -238,7 +238,7 @@ abstract class SlackUser
      *
      * @return string The user's timezone, or null if no timezone is available.
      */
-    public function getUsername()
+    public function getUserTimezone()
     {
         return isset($this->data['tz']) ? $this->data['tz'] : null;
     }
