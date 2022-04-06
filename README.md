@@ -1,21 +1,24 @@
 # PHP Slack API Client
-[![Build](https://img.shields.io/scrutinizer/build/g/sagebind/slack-client.svg)](https://scrutinizer-ci.com/g/sagebind/slack-client)
-[![Version](https://img.shields.io/packagist/v/coderstephen/slack-client.svg)](https://packagist.org/packages/coderstephen/slack-client)
-[![License](https://img.shields.io/packagist/l/coderstephen/slack-client.svg)](https://packagist.org/packages/coderstephen/slack-client)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/sagebind/slack-client.svg)](https://scrutinizer-ci.com/g/sagebind/slack-client)
-[![Code Quality](https://img.shields.io/scrutinizer/g/sagebind/slack-client.svg)](https://scrutinizer-ci.com/g/sagebind/slack-client)
-[![Downloads](https://img.shields.io/packagist/dt/coderstephen/slack-client.svg)](https://packagist.org/packages/coderstephen/slack-client)
+[![Version](https://img.shields.io/packagist/v/spatialmedia/slack-client.svg)](https://packagist.org/packages/spatialmedia/slack-client)
+[![License](https://img.shields.io/packagist/l/spatialmedia/slack-client.svg)](https://packagist.org/packages/spatialmedia/slack-client)
+[![Downloads](https://img.shields.io/packagist/dt/spatialmedia/slack-client.svg)](https://packagist.org/packages/spatialmedia/slack-client)
 
-This is an API client for [Slack](http://slack.com) for PHP clients, with support for the [Real Time Messaging API](http://api.slack.com/rtm) (RTM API) using web sockets.
+## History
+- 2015: Originally built by [sagebind](https://github.com/sagebind), for use in [Slackyboy](https://github.com/sagebind/slackyboy).
+- 2016: The plugin is re-distributed under the vendor name [mpociot](https://github.com/mpociot) as `mpociot/slack-client`.
+- 2022: The plugin is forked by the Spatial Media team and made available as `spatialmedia/slack-client`.
 
-## Overview
-This library was created primarily for [Slackyboy](https://github.com/sagebind/slackyboy), but was branched off into its own codebase so it could be used in other projects as well. I created this client because existing clients were either too complicated to use, or buggy, or incomplete. This is also the first PHP client I am aware of to support Slack's RTM API.
+The `spatialmedia/slack-client` is currently maintained by the Spatial Media team and You (the open source community).
+
+## Requirements
+
+- PHP >= 8.0
 
 ## Installation
 Install with [Composer](http://getcomposer.org), obviously:
 
 ```sh
-$ composer require mpociot/slack-client
+$ composer require spatialmedia/slack-client
 ```
 
 Please note that the current version has unstable dependencies.
@@ -117,9 +120,6 @@ $loop->run();
 
 See the [Slack API documentation](http://api.slack.com/events) for a list of possible events.
 
-## Documentation
-You can view the complete API documentation [here](http://sagebind.github.io/slack-client/api).
-
 ## Running tests
 You can run automated unit tests using [PHPUnit](http://phpunit.de) after installing dependencies:
 
@@ -128,7 +128,7 @@ $ vendor/bin/phpunit
 ```
 
 ## Where to get help
-Need help? Just [send me an email](mailto:me@stephencoakley.com) with your questions. Be sure to add "Slack client" to the message subject line so I know how I can help you out.
+Need help? Checkout the [issues page](https://github.com/spatialmedia/slack-client/issues) for the repo.
 
 ## License
 This library is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
