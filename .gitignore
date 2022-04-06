@@ -1,7 +1,12 @@
 # composer dependencies
 /vendor/
+composer.lock
 
 # ide files
 *.sublime-project
 *.sublime-workspace
 .idea
+
+# phpunit
+.phpunit.result.cache
+
