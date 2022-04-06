@@ -1,12 +1,18 @@
 {
-    "name": "mpociot/slack-client",
+    "name": "spatialmedia/slack-client",
     "keywords": ["slack", "api", "realtime"],
     "license": "MIT",
     "description": "A better Slack client, with RTM API support",
-    "authors": [{
-        "name": "Stephen Coakley",
-        "email": "me@stephencoakley.com"
-    }],
+    "authors": [
+        {
+            "name": "Stephen Coakley",
+            "email": "me@stephencoakley.com"
+        },
+        {
+            "name": "Jack Wilkinson",
+            "email": "jack@spatialmedia.ca"
+        }
+    ],
     "require": {
         "php": ">=8.0",
         "mpociot/phpws": "^2.0",
